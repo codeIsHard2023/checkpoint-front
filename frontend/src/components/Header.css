@@ -1,0 +1,41 @@
+.header {
+  background-color: rgb(247, 19, 107);
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-links button {
+  background-color: rgb(247, 19, 107);
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-links button:hover {
+  background-color: rgb(247, 19, 107);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.header-links button a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-links button a:hover {
+  color: white;
+}

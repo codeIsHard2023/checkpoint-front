@@ -1,3 +1,5 @@
+import { CountriesWrapper } from "../components/CountriesWrapper";
+
 export function HomePage() {
-  return <p>You should start working here!</p>;
+  return <CountriesWrapper />;
 }
